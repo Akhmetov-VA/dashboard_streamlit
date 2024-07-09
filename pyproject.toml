@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dashboard-ghant"
+version = "0.1.0"
+description = ""
+authors = ["Vadim Akhmetov <golden312va@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.36.0"
+plotly = "^5.22.0"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
